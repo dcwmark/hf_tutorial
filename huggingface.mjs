@@ -13,11 +13,11 @@ const hf = new HfInference(HF_ACCESS_TOKEN);
 const model = 'nlpconnect/vit-gpt2-image-captioning';
 /*- Image Path -*/
 // const imagePath = 'file:///Users/entaroadun/Projects/ai/hf_tutorial/public/Wall.jpeg';
-// const imagePath = './resources/OneSunday.jpg';
+// const imagePath = './resources/OneSunday.JPG;
 // const imagePath = './resources/Wall.jpeg';
-// const imagePath = './resources/DSC_0001.jpg';
+const imagePath = './resources/DSC_0001.jpg';
 // const imagePath = './resources/DSC_0054.jpg';
-const imagePath = './resources/DSC_0070.jpg';
+// const imagePath = './resources/DSC_0070.JPG';
 // const imagePath = './resources/DSC_0115.jpg';
 // const imagePath = './resources/DSC_2104.jpg';
 /*- Fetch the image and Convert it into a blob -*/
